@@ -1,6 +1,8 @@
 <?php
-//$output = shell_exec('git pull');
+$output = shell_exec('git pull');
+var_dump($output);
 $output = shell_exec('git add . -u');
+echo "\n..............................................\n";
 var_dump($output);
 $output = shell_exec('git commit -m "test"');
 echo "\n..............................................\n";
